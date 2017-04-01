@@ -21,7 +21,7 @@ Take 10 screenshots of the user's face and store them in a secure way, so that t
 - Keychain API still a pain
 
 
-## Referenecs 
+## References 
 
 - https://github.com/oettam/camera-controls-demo
 - [Keychain code](http://stackoverflow.com/a/42360846/406
