@@ -37,5 +37,5 @@ Takes 10 screenshots of the user's face and stores them in the kechain.
 ## References 
 
 - https://github.com/oettam/camera-controls-demo
-- [Keychain code](http://stackoverflow.com/a/42360846/406
+- [Keychain code](http://stackoverflow.com/a/42360846/406)
 - [Apple Sample Code AVCaom-iOS](https://developer.apple.com/library/content/samplecode/AVCam/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010112)
