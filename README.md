@@ -1,5 +1,17 @@
 # Ten Photos
 
+## Build and Run
+
+Must be run on a device.
+
+Update your Bundle Identifier to matching your Team Name.
+
+Set signing to your team name.
+
+## Requirements
+
+Xcode 8.3, Swift 3.1
+
 
 Take 10 screenshots of the user's face and store them in a secure way, so that they cannot be read/overwritten by attackers.
 
