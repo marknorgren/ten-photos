@@ -12,6 +12,7 @@ Set signing to your team name.
 
 Xcode 8.3, Swift 3.1
 
+## About
 
 Take 10 screenshots of the user's face and store them in a secure way, so that they cannot be read/overwritten by attackers.
 
