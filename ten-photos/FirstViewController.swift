@@ -10,16 +10,32 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    var cameraController:CameraController!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        cameraController = CameraController()
+    }
+
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        cameraController.startRunning()
+
+    }
+
+    @IBAction func handleShutterButton(_ sender: UIButton) {
+        cameraController.captureStillImage { (image, metadata) -> Void in
+            self.view.layer.contents = image
+            UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 

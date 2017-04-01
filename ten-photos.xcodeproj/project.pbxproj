@@ -14,6 +14,7 @@
 		4D8A41D71E8F35A800444634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D8A41D61E8F35A800444634 /* Assets.xcassets */; };
 		4D8A41DA1E8F35A800444634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D8A41D81E8F35A800444634 /* LaunchScreen.storyboard */; };
 		4D8A41E51E8F35A800444634 /* ten_photosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8A41E41E8F35A800444634 /* ten_photosTests.swift */; };
+		4D8A41F21E8F3AFE00444634 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8A41F11E8F3AFE00444634 /* CameraController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		4D8A41E01E8F35A800444634 /* ten-photosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ten-photosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8A41E41E8F35A800444634 /* ten_photosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ten_photosTests.swift; sourceTree = "<group>"; };
 		4D8A41E61E8F35A800444634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8A41F11E8F3AFE00444634 /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				4D8A41D61E8F35A800444634 /* Assets.xcassets */,
 				4D8A41D81E8F35A800444634 /* LaunchScreen.storyboard */,
 				4D8A41DB1E8F35A800444634 /* Info.plist */,
+				4D8A41F11E8F3AFE00444634 /* CameraController.swift */,
 			);
 			path = "ten-photos";
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				4D8A41D21E8F35A800444634 /* SecondViewController.swift in Sources */,
 				4D8A41CE1E8F35A800444634 /* AppDelegate.swift in Sources */,
 				4D8A41D01E8F35A800444634 /* FirstViewController.swift in Sources */,
+				4D8A41F21E8F3AFE00444634 /* CameraController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
