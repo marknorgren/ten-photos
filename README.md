@@ -14,7 +14,7 @@ Xcode 8.3, Swift 3.1
 
 ## About
 
-Take 10 screenshots of the user's face and store them in a secure way, so that they cannot be read/overwritten by attackers.
+Takes 10 screenshots of the user's face and stores them in the kechain.
 
 - single button when you press it, it will open the front camera of the iOS device
 - take 10 pictures of whatever is there
